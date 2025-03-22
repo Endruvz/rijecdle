@@ -1,0 +1,168 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.word-input{
+  display: flex;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+.letter-box {
+  display: inline-block;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 2px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.letter-box-key{
+  display: inline-block;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 2px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: gray;
+  background-color: #888;
+}
+
+input{
+  height: 50px;
+  width: 50px;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid;
+  padding: 0.6em 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  border-color: grey;
+  background-color: #242424;
+  cursor: pointer;
+  width: 225px;
+  height: 75px;
+}
+button:hover {
+  border-color: darkgray;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#keyboard {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #242424;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
