@@ -97,7 +97,7 @@ const words = ["APPLE", "SIGMA", "GREEN", "DATES", "ELDER",
   "MIRTH", "NICHE", "PRIDE", "QUILT", "RISKY", "SCOUT", "TIDAL", "VOWEL",
   "YACHT", "ACORN", "BISON", "CANDY", "DANDY", "ETHIC", "FLORA", "GIDDY",
   "HONOR", "JUMPS", "KOALA", "LUNAR", "MANGO", "PLAZA", "QUILL",
-  "RAVEN", "SWOOP", "TWIST", "VAGUE", "WITTY", "BRISK"
+  "RAVEN", "SWOOP", "TWIST", "VAGUE", "WITTY", "BRISK", "RAMBO"
 ];
 const targetWord = words[Math.floor(Math.random() * words.length)];
 console.log(targetWord)
