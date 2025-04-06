@@ -57,7 +57,7 @@ document.querySelector("#app").innerHTML =
     <h1 class="letter-box-key" id="keyE">E</h1>
     <h1 class="letter-box-key" id="keyR">R</h1>
     <h1 class="letter-box-key" id="keyT">T</h1>
-    <h1 class="letter-box-key" id="keyY">Y</h1>
+    <h1 class="letter-box-key" id="keyZ">Z</h1>
     <h1 class="letter-box-key" id="keyU">U</h1>
     <h1 class="letter-box-key" id="keyI">I</h1>
     <h1 class="letter-box-key" id="keyO">O</h1>
@@ -75,7 +75,7 @@ document.querySelector("#app").innerHTML =
     <h1 class="letter-box-key" id="keyL">L</h1>
   </div>
   <div class="keyboard-row">
-    <h1 class="letter-box-key" id="keyZ">Z</h1>
+    <h1 class="letter-box-key" id="keyY">Y</h1>
     <h1 class="letter-box-key" id="keyX">X</h1>
     <h1 class="letter-box-key" id="keyC">C</h1>
     <h1 class="letter-box-key" id="keyV">V</h1>
